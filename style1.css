@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.container{
+    display:flex;
+}
+.navbar{
+    height:15vh;
+    width:100%;
+   text-transform:uppercase;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:fixed;
+}
+.container .navbar ul {
+    width:5rem;
+}
+.left-container, .right-container{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.left-container{
+    background:black;
+    width:70%;
+    padding-left:3rem;
+   
+
+}
+.container .right-container{
+    background:rgb(10, 77, 139);
+    width:30%;
+  background:linear-gradient(black,rgb(10, 77, 139) );
+}
+.container .left-container span{
+    color:rgb(10, 77, 139);
+}
+.container .navbar ul a{
+    color:white;
+    text-decoration: none;
+}
+.container .left-container{
+    color:white;
+}
+.container .left-container h1{
+    color:rgb(10, 77, 139);
+  
+}
+.container .left-container p{
+    margin-left:16rem;
+    margin-right:11rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+.butn-container button{
+    padding:.2rem;
+    margin:1rem;
+    border:0.1rem solid;
+}
+button:nth-child(1){
+    color:black;
+    background: rgb(10, 77, 139);
+}
+button:nth-child(2){
+    color:rgb(10, 77, 139);
+    background:transparent;
+}
+.design .circle{
+    aspect-ratio:1;
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+     left:50%; 
+    transform:translate(-50%,-50%);
+} 
+.circle:nth-child(2){
+   
+    width:18rem;
+    left:70%;
+    background-image:url("\tanish.jpeg");
+    background-size:100%;
+    background-repeat:no-repeat;
+   
+ }
+.circle:nth-child(1){
+ 
+   width:19rem;
+   left:70%;
+   box-shadow:10px 10px 30px;
+   background:linear-gradient(90deg,black 50%,rgb(10, 77, 139) );
+}
+.container .left-container p{
+    left:30px;
+    right:60px;
+}
